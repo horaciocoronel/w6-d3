@@ -1,5 +1,11 @@
 def ordinal_indicator(number)
-  if number.digits.first == 1
+  if number == 11
+    puts "#{number}th"
+  elsif number == 12
+    puts "#{number}th"
+  elsif number == 13
+    puts "#{number}th"
+  elsif number.digits.first == 1
     puts "#{number}st"
   elsif number.digits.first == 2
     puts "#{number}nd"
